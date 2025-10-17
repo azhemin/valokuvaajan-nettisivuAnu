@@ -106,7 +106,7 @@ export function Contact() {
                   <div>
                     <p className="text-muted-foreground text-sm">Sähköposti</p>
                     <a href="mailto:sofia@virtanenphoto.fi" className="hover:underline">
-                      sofia@virtanenphoto.fi
+                      anu.kiiruna@kesko.fi
                     </a>
                   </div>
                 </div>
@@ -118,7 +118,7 @@ export function Contact() {
                   <div>
                     <p className="text-muted-foreground text-sm">Puhelin</p>
                     <a href="tel:+358401234567" className="hover:underline">
-                      +358 40 123 4567
+                      +358 41 539 9292
                     </a>
                   </div>
                 </div>
