@@ -105,7 +105,7 @@ export function Contact() {
                   </div>
                   <div>
                     <p className="text-muted-foreground text-sm">Sähköposti</p>
-                    <a href="mailto:sofia@virtanenphoto.fi" className="hover:underline">
+                    <a href="mailto:anu.kiiruna@kesko.fi" className="hover:underline">
                       anu.kiiruna@kesko.fi
                     </a>
                   </div>
