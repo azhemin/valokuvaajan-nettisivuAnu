@@ -2,19 +2,19 @@ import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Camera, Award, Heart } from 'lucide-react';
 
 export function About() {
+  const photo = import.meta.env.BASE_URL + 'images/varikuva-naama.jpeg';
+
   return (
     <section id="about" className="py-20 bg-secondary/20">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-<div className="rounded-lg overflow-hidden">
-  {/* ...existing code... */}
-  <ImageWithFallback
-    src="/images/varikuva-naama.jpeg"
-    alt="Anu Kiiruna"
-    className="w-full h-auto"
-  />
-
-</div>
+          <div className="rounded-lg overflow-hidden">
+            <ImageWithFallback
+              src={photo}
+              alt="Anu Kiiruna"
+              className="w-full h-auto"
+            />
+          </div>
 
           <div>
             <h2 className="mb-6">Tietoa minusta</h2>
